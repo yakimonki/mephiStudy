@@ -1,0 +1,6 @@
+clint==0.5.1
+fitz==0.0.1.dev2
+googletrans==3.1.0a0
+numpy==1.23.5
+pandas==1.5.1
+PyMuPDF==1.21.0
