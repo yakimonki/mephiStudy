@@ -119,7 +119,7 @@ def eng_to_ru(s: str) -> str:
     return translator.translate(s, src='en', dest='ru').text
 
 """get all pdf"""
-words = [i for i in open("words_2.txt", "r").read().split("\n") if len(i)>0]
+words = [i for i in open("words.txt", "r").read().split("\n") if len(i)>0]
 #print(words)
 # articles_list = [file for file in glob.glob("files/norm_a/*.pdf")]
 articles_list = [file for file in glob.glob("files/*.pdf")]
